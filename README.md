@@ -4,5 +4,5 @@
 This is an Allen NLP dataloader for the ULF dataset
 
 ## Environment
-run
+To set the dependencies, run
 > pip install -r requirements.txt
