@@ -1,0 +1,67 @@
+2022-05-04 04:16:52,857 - INFO - allennlp.common.params - evaluation = None
+2022-05-04 04:16:52,857 - INFO - allennlp.common.params - include_in_archive = None
+2022-05-04 04:16:52,857 - INFO - allennlp.common.params - random_seed = 13370
+2022-05-04 04:16:52,857 - INFO - allennlp.common.params - numpy_seed = 1337
+2022-05-04 04:16:52,858 - INFO - allennlp.common.params - pytorch_seed = 133
+2022-05-04 04:16:52,885 - INFO - allennlp.common.checks - Pytorch version: 1.11.0
+2022-05-04 04:16:52,885 - INFO - allennlp.common.params - type = default
+2022-05-04 04:16:52,886 - INFO - allennlp.common.params - dataset_reader.type = ulf_reader
+2022-05-04 04:16:52,886 - INFO - allennlp.common.params - dataset_reader.max_instances = None
+2022-05-04 04:16:52,886 - INFO - allennlp.common.params - dataset_reader.manual_distributed_sharding = False
+2022-05-04 04:16:52,886 - INFO - allennlp.common.params - dataset_reader.manual_multiprocess_sharding = False
+2022-05-04 04:16:52,886 - INFO - allennlp.common.params - dataset_reader.tokenizer = None
+2022-05-04 04:16:52,886 - INFO - allennlp.common.params - dataset_reader.token_indexers = None
+2022-05-04 04:16:52,886 - INFO - allennlp.common.params - train_data_path = ./ulf-data-1.0/ulf/train/all.json
+2022-05-04 04:16:52,887 - INFO - allennlp.common.params - vocabulary = <allennlp.common.lazy.Lazy object at 0x18363e4c0>
+2022-05-04 04:16:52,887 - INFO - allennlp.common.params - datasets_for_vocab_creation = None
+2022-05-04 04:16:52,887 - INFO - allennlp.common.params - validation_dataset_reader = None
+2022-05-04 04:16:52,887 - INFO - allennlp.common.params - validation_data_path = ./ulf-data-1.0/ulf/test/all.json
+2022-05-04 04:16:52,887 - INFO - allennlp.common.params - validation_data_loader = None
+2022-05-04 04:16:52,887 - INFO - allennlp.common.params - test_data_path = None
+2022-05-04 04:16:52,887 - INFO - allennlp.common.params - evaluate_on_test = False
+2022-05-04 04:16:52,887 - INFO - allennlp.common.params - batch_weight_key = 
+2022-05-04 04:16:52,887 - INFO - allennlp.common.params - data_loader.type = multiprocess
+2022-05-04 04:16:52,887 - INFO - allennlp.common.params - data_loader.batch_size = 1
+2022-05-04 04:16:52,887 - INFO - allennlp.common.params - data_loader.drop_last = False
+2022-05-04 04:16:52,888 - INFO - allennlp.common.params - data_loader.shuffle = False
+2022-05-04 04:16:52,888 - INFO - allennlp.common.params - data_loader.batch_sampler = None
+2022-05-04 04:16:52,888 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2022-05-04 04:16:52,888 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2022-05-04 04:16:52,888 - INFO - allennlp.common.params - data_loader.max_instances_in_memory = None
+2022-05-04 04:16:52,888 - INFO - allennlp.common.params - data_loader.start_method = fork
+2022-05-04 04:16:52,888 - INFO - allennlp.common.params - data_loader.cuda_device = None
+2022-05-04 04:16:52,888 - INFO - allennlp.common.params - data_loader.quiet = False
+2022-05-04 04:16:52,888 - INFO - allennlp.common.params - data_loader.collate_fn = <allennlp.data.data_loaders.data_collator.DefaultDataCollator object at 0x180777310>
+loading instances: 0it [00:00, ?it/s]2022-05-04 04:16:52,915 - INFO - root - Reading entries from lines in file at ./ulf-data-1.0/ulf/train/all.json
+loading instances: 1378it [00:00, 5398.95it/s]
+2022-05-04 04:16:53,164 - INFO - allennlp.common.params - data_loader.type = multiprocess
+2022-05-04 04:16:53,164 - INFO - allennlp.common.params - data_loader.batch_size = 1
+2022-05-04 04:16:53,165 - INFO - allennlp.common.params - data_loader.drop_last = False
+2022-05-04 04:16:53,165 - INFO - allennlp.common.params - data_loader.shuffle = False
+2022-05-04 04:16:53,165 - INFO - allennlp.common.params - data_loader.batch_sampler = None
+2022-05-04 04:16:53,165 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2022-05-04 04:16:53,165 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2022-05-04 04:16:53,165 - INFO - allennlp.common.params - data_loader.max_instances_in_memory = None
+2022-05-04 04:16:53,165 - INFO - allennlp.common.params - data_loader.start_method = fork
+2022-05-04 04:16:53,165 - INFO - allennlp.common.params - data_loader.cuda_device = None
+2022-05-04 04:16:53,165 - INFO - allennlp.common.params - data_loader.quiet = False
+2022-05-04 04:16:53,165 - INFO - allennlp.common.params - data_loader.collate_fn = <allennlp.data.data_loaders.data_collator.DefaultDataCollator object at 0x180777310>
+loading instances: 0it [00:00, ?it/s]2022-05-04 04:16:53,167 - INFO - root - Reading entries from lines in file at ./ulf-data-1.0/ulf/test/all.json
+loading instances: 180it [00:00, 8395.51it/s]
+2022-05-04 04:16:53,187 - INFO - allennlp.common.params - type = from_instances
+2022-05-04 04:16:53,187 - INFO - allennlp.common.params - min_count = None
+2022-05-04 04:16:53,187 - INFO - allennlp.common.params - max_vocab_size = None
+2022-05-04 04:16:53,187 - INFO - allennlp.common.params - non_padded_namespaces = ('*tags', '*labels')
+2022-05-04 04:16:53,188 - INFO - allennlp.common.params - pretrained_files = None
+2022-05-04 04:16:53,188 - INFO - allennlp.common.params - only_include_pretrained_words = False
+2022-05-04 04:16:53,188 - INFO - allennlp.common.params - tokens_to_add = None
+2022-05-04 04:16:53,188 - INFO - allennlp.common.params - min_pretrained_embeddings = None
+2022-05-04 04:16:53,188 - INFO - allennlp.common.params - padding_token = @@PADDING@@
+2022-05-04 04:16:53,188 - INFO - allennlp.common.params - oov_token = @@UNKNOWN@@
+2022-05-04 04:16:53,188 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.
+building vocab: 1558it [00:00, 18830.54it/s]
+2022-05-04 04:16:53,378 - CRITICAL - root - Uncaught exception
+Traceback (most recent call last):
+  File "/Users/lijiarong/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/allennlp/common/params.py", line 211, in pop
+    value = self.params.pop(key)
+KeyError: 'type'
