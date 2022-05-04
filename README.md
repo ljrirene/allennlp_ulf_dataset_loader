@@ -1,7 +1,7 @@
 # Allennlp_ULF_Dataset_Loader
 
 ## Description
-This is an Allen NLP dataloader for the ULF dataset.
+This is an Allen NLP dataloader for the ULF dataset.  
 The dataset can be found in https://www.cs.rochester.edu/u/gkim21/ulf/resources/
 
 ## Environment
