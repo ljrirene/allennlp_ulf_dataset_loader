@@ -41,8 +41,7 @@ class ULFReader(DatasetReader):
 
 
 if __name__ == '__main__':
-    print("test")
 
     dataset_reader = ULFReader()
-    dataset_reader.read("test.json")
+    #dataset_reader.read("test.json")
 
