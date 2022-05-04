@@ -25,4 +25,4 @@ Checking out.log:
 > building vocab: 1558it [00:00, 18830.54it/s].   
  
   
-  The KeyError: 'type' is because there is no defined model yet, I just use {} in the config file.
+  The KeyError: 'type' is because there is no defined model yet, I just use {} to define the model in the config file.
