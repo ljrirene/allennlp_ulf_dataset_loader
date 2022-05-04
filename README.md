@@ -17,12 +17,12 @@ To load ulf-stog, just change the configuration into:
   
 ## Output
 Checking out.log:
-> loading instances: 0it [00:00, ?it/s]2022-05-04 04:16:52,915 - INFO - root - Reading entries from lines in file at ./ulf-data-1.0/ulf/train/all.json. 
-> loading instances: 1378it [00:00, 5398.95it/s]. 
-> loading instances: 0it [00:00, ?it/s]2022-05-04 04:16:53,167 - INFO - root - Reading entries from lines in file at ./ulf-data-1.0/ulf/test/all.json  
-> loading instances: 180it [00:00, 8395.51it/s]. 
-> 2022-05-04 04:16:53,188 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.  
-> building vocab: 1558it [00:00, 18830.54it/s]. 
-
+> loading instances: 0it [00:00, ?it/s]2022-05-04 04:16:52,915 - INFO - root - Reading entries from lines in file at ./ulf-data-1.0/ulf/train/all.json.   
+> loading instances: 1378it [00:00, 5398.95it/s].   
+> loading instances: 0it [00:00, ?it/s]2022-05-04 04:16:53,167 - INFO - root - Reading entries from lines in file at ./ulf-data-1.0/ulf/test/all.json    
+> loading instances: 180it [00:00, 8395.51it/s].   
+> 2022-05-04 04:16:53,188 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.    
+> building vocab: 1558it [00:00, 18830.54it/s].   
+ 
   
   The KeyError: 'type' is because there is no defined model yet, I just use {} in the config file.
